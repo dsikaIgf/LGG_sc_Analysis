@@ -1,4 +1,4 @@
-# LGG275 Glioma Single-Cell Analysis Suite
+# LGG275 Glioma Single-Cell Analysis
 
 This repository contains reproducible scripts and workflows for single-cell RNA-seq analysis of low-grade glioma (LGG275). The suite covers quality control, cell type annotation, cell cycle analysis, cell–cell communication mapping, and RNA velocity modeling in both **R** and **Python**.
 
