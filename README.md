@@ -65,5 +65,5 @@ dassou.sika@igf.cnrs.fr
 
 ## Citation
 
-If you use these workflows, please cite this repository and the relevant primary literature for Seurat, SCType, CellChat, ccAFv2, Scanpy, scVelo, and CellRank.
+If you use these workflows, please cite this repository and the relevant primary literature for Seurat, SCType, CellChat, ccAFv2, Scanpy, scVelo.
 
