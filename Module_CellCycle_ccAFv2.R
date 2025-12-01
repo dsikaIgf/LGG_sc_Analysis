@@ -76,7 +76,7 @@ for (ext in c("bmp", "eps", "pdf", "png", "svg", "tiff")) {
 }
 
 # Cell Cycle Distribution by Cell Type =======================================
-phase_table <- table(Object.data$CellMarkersV2_classification_V3, Object.data$ccAFv2)
+phase_table <- table(Object.data$scType_Annotations, Object.data$ccAFv2)
 phase_df <- as.data.frame.matrix(phase_table)
 phase_df$Cell_Type <- rownames(phase_df)
 long_data <- pivot_longer(phase_df, cols = -Cell_Type, names_to = "Cell_Cycle_Phase", values_to = "Count")
