@@ -6,15 +6,15 @@ This repository contains reproducible scripts and workflows for single-cell RNA-
 
 ## Repository Contents
 
-- `Module_QC.R`  
+- `Script/R/Module_QC.R`  
   Quality control and basic preprocessing with Seurat.
-- `Module_Cell_Annotation.R`  
+- `Script/R/Module_Cell_Annotation.R`  
   Cell type annotation using SCType and differential expression analysis.
-- `Module_Cell_cell_communication.R`  
+- `Script/R/Module_Cell_cell_communication.R`  
   Cell–cell communication analysis using CellChat.
-- `Module_CellCycle_ccAFvé.R`  
+- `Script/R/Module_CellCycle_ccAFvé.R`  
   Cell cycle annotation with ccAFv2 and visualization.
-- `Module_RNA_Velocity.py`  
+- `Script/Python/Module_RNA_Velocity.py`  
   RNA velocity workflow using Scanpy, scVelo, and CellRank.
 
 ---
