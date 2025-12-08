@@ -54,8 +54,9 @@ annotation_colors <- list(
   )
 )
 
-Dim2 <- DimPlot(Object.data, reduction = "umap", group.by = "ccAFv2",split.by = "stim", label=FALSE,label.size = 8,pt.size =6, cols = annotation_colors$Cell_Cycle_Group)+ xlim(c(-10, 10)) + ylim(c(-10, 10))
-  
+Dim2 <- DimPlot.ccAFv2(seur_obj, reduction = "umap", split.by = "stim", label=FALSE,label.size = 8,pt.size =6)+ xlim(c(-10, 15)) + ylim(c(-10, 10))
+
+
 p <- Dim2 +
   theme(
     legend.position = "right",
